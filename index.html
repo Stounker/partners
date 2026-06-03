@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Бухгалтерия и юридическая защита бизнеса | Партнеры</title>
+  <meta name="description" content="Комплексное бухгалтерское и юридическое сопровождение МСБ. Бесплатная консультация.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css?v=4">
+</head>
+<body>
+  <!-- ШАПКА -->
+      <header class="header">
+    <div class="container">
+      <a href="/" class="logo">Партнёры</a>
+      <nav class="nav">
+              <a href="index.html">Главная</a>
+              <div class="nav-dropdown">
+                <a href="uslugi.html" class="nav-dropdown-toggle">Услуги</a>
+                <div class="nav-dropdown-menu">
+                  <a href="buhgalteria.html">Бухгалтерское обслуживание</a>
+                  <a href="nalogi.html">Налоговое консультирование</a>
+                  <a href="urisprudenciya.html">Юридическое сопровождение</a>
+                  <a href="uslugi.html">Все услуги</a>
+                </div>
+              </div>
+              <a href="tarify.html">Тарифы</a>
+              <a href="keisy.html">Кейсы</a>
+              <a href="blog.html">Блог</a>
+              <a href="o-kompanii.html">О компании</a>
+              <a href="kontakty.html">Контакты</a>
+            </nav>
+      <div class="header-actions">
+        <a href="tel:+74951234567" class="btn-call">+7 (495) 123-45-67</a>
+        <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- БЛОК 1: HERO -->
+    <section class="hero">
+      <div class="container hero-content fade-in">
+        <h1>Бухгалтерия и юридическая защита вашего бизнеса — спокойно и без суеты</h1>
+        <p>Все специалисты в одном месте: от регистрации до ликвидации. Вы занимаетесь развитием бизнеса, мы — документами, налогами и безопасностью</p>
+        <div class="hero-actions">
+          <a href="tel:+74951234567" class="btn btn-primary">Позвонить для консультации</a>
+          <a href="tarify.html" class="btn btn-secondary">Рассчитать стоимость</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- БЛОК 2: ПРОБЛЕМЫ -->
+    <section class="section" id="problems">
+      <div class="container">
+        <h2 class="section-title fade-in">Узнаёте ситуацию?</h2>
+        <div class="problems-grid">
+          <div class="problem-card fade-in">
+            <svg class="problem-icon" viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" stroke="currentColor" fill="none"/><path d="M24 14v10l6 6" stroke="currentColor" fill="none"/></svg>
+            <h3>Тратите вечера на отчётность вместо отдыха</h3>
+            <p>Вместо того чтобы разбираться в изменениях законодательства, вы могли бы проводить время с семьёй</p>
+          </div>
+          <div class="problem-card fade-in">
+            <svg class="problem-icon" viewBox="0 0 48 48"><path d="M24 4l4 12h12l-10 8 4 12-10-8-10 8 4-12-10-8h12z" stroke="currentColor" fill="none"/></svg>
+            <h3>Боитесь пропустить срок сдачи декларации</h3>
+            <p>Один пропущенный дедлайн — и штрафы съедают прибыль</p>
+          </div>
+          <div class="problem-card fade-in">
+            <svg class="problem-icon" viewBox="0 0 48 48"><rect x="4" y="12" width="40" height="28" rx="4" stroke="currentColor" fill="none"/><path d="M12 24h24M12 32h16" stroke="currentColor"/></svg>
+            <h3>Не уверены, что налоги оптимальны</h3>
+            <p>Платите больше, чем нужно, потому что нет времени на анализ</p>
+          </div>
+          <div class="problem-card fade-in">
+            <svg class="problem-icon" viewBox="0 0 48 48"><rect x="8" y="8" width="32" height="36" rx="4" stroke="currentColor" fill="none"/><path d="M16 24h16M16 32h10" stroke="currentColor"/></svg>
+            <h3>Юридические вопросы откладываются «на потом»</h3>
+            <p>Договоры с ошибками, незащищённые сделки — риск растёт каждый день</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- БЛОК 3: УСЛУГИ (капсулы) -->
+    <section class="section" style="background: var(--bg-light);">
+      <div class="container">
+        <h2 class="section-title fade-in">Комплексное сопровождение бизнеса</h2>
+        <div class="services-grid">
+          <div class="service-card fade-in video-card">
+            <video class="card-video" src="video/fon_kompleks/buh_obsl.mp4" muted loop playsinline autoplay></video>
+            <div class="card-overlay"></div>
+            <a href="buhgalteria.html" class="card-content">
+              <h3>Бухгалтерское обслуживание</h3>
+              <p>Ведём учёт от первички до отчётности. Никаких штрафов и просрочек</p>
+            </a>
+          </div>
+          <div class="service-card fade-in video-card">
+            <video class="card-video" src="video/fon_kompleks/buh_konsul.mp4" muted loop playsinline autoplay></video>
+            <div class="card-overlay"></div>
+            <a href="nalogi.html" class="card-content">
+              <h3>Налоговое консультирование</h3>
+              <p>Подберём оптимальную систему налогообложения. Легально снизим нагрузку</p>
+            </a>
+          </div>
+          <div class="service-card fade-in video-card">
+            <video class="card-video" src="video/fon_kompleks/buh_yursopr.mp4" muted loop playsinline autoplay></video>
+            <div class="card-overlay"></div>
+            <a href="urisprudenciya.html" class="card-content">
+              <h3>Юридическое сопровождение</h3>
+              <p>Защитим интересы в договорах, судах, спорах с контрагентами</p>
+            </a>
+          </div>
+          <div class="service-card fade-in video-card">
+            <video class="card-video" src="video/fon_kompleks/buh_reg.mp4" muted loop playsinline autoplay></video>
+            <div class="card-overlay"></div>
+            <div class="card-content">
+              <h3>Регистрация и ликвидация</h3>
+              <p>Откроем ИП или ООО «под ключ» за 3 дня</p>
+            </div>
+          </div>
+          <div class="service-card fade-in video-card">
+            <video class="card-video" src="video/fon_kompleks/buh_raschet.mp4" muted loop playsinline autoplay></video>
+            <div class="card-overlay"></div>
+            <div class="card-content">
+              <h3>Кадровый учёт</h3>
+              <p>Оформим приём, перевод, увольнение. Рассчитаем зарплату</p>
+            </div>
+          </div>
+          <div class="service-card fade-in video-card">
+            <video class="card-video" src="video/fon_kompleks/buh_vostanov.mp4" muted loop playsinline autoplay></video>
+            <div class="card-overlay"></div>
+            <div class="card-content">
+              <h3>Восстановление учёта</h3>
+              <p>Исправим ошибки, накопившиеся за годы</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- БЛОК 4: КАК МЫ РАБОТАЕМ -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title fade-in">Начать работу проще, чем кажется</h2>
+        <div class="steps fade-in">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h4>Заявка</h4>
+            <p>Оставьте заявку или позвоните. Обсудим задачи</p>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <h4>Аудит</h4>
+            <p>Проведём экспресс-анализ. Выявим риски</p>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <h4>Решение</h4>
+            <p>Предложим тариф. Зафиксируем цену</p>
+          </div>
+          <div class="step">
+            <div class="step-number">4</div>
+            <h4>Работа</h4>
+            <p>Закрепим менеджера. Начнёте работать спокойно</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- БЛОК 5: ПРЕИМУЩЕСТВА -->
+    <section class="section" style="background: var(--bg-light);">
+      <div class="container">
+        <h2 class="section-title fade-in">Не просто бухгалтеры — партнёры вашего бизнеса</h2>
+        <div class="benefits-grid">
+          <div class="benefit-card fade-in">
+            <svg class="benefit-icon" viewBox="0 0 44 44"><circle cx="22" cy="22" r="18" stroke="currentColor" fill="none"/><path d="M22 14v16M14 22h16" stroke="currentColor"/></svg>
+            <h3>Единое окно</h3>
+            <p>Бухгалтерия, налоги, юридическая защита — всё в одном месте</p>
+          </div>
+          <div class="benefit-card fade-in">
+            <svg class="benefit-icon" viewBox="0 0 44 44"><circle cx="22" cy="22" r="6" stroke="currentColor" fill="none"/><path d="M22 4v8M22 32v8M4 22h8M32 22h8" stroke="currentColor"/></svg>
+            <h3>Персональный менеджер</h3>
+            <p>Закрепим специалиста, который знает ваш бизнес</p>
+          </div>
+          <div class="benefit-card fade-in">
+            <svg class="benefit-icon" viewBox="0 0 44 44"><rect x="8" y="12" width="28" height="20" rx="4" stroke="currentColor" fill="none"/><path d="M20 16l-4 8h8l-4 8" stroke="currentColor"/></svg>
+            <h3>Фиксированная стоимость</h3>
+            <p>Никаких скрытых платежей и доплат</p>
+          </div>
+          <div class="benefit-card fade-in">
+            <svg class="benefit-icon" viewBox="0 0 44 44"><path d="M22 4l-6 12-14 2 10 10-3 14 13-8 13 8-3-14 10-10-14-2z" stroke="currentColor" fill="none"/></svg>
+            <h3>Финансовая ответственность</h3>
+            <p>Если штраф возник по нашей вине — оплатим сами</p>
+          </div>
+          <div class="benefit-card fade-in">
+            <svg class="benefit-icon" viewBox="0 0 44 44"><path d="M12 12h20v20H12z" stroke="currentColor" fill="none"/><path d="M16 16h12v12H16z" stroke="currentColor"/></svg>
+            <h3>Проактивный подход</h3>
+            <p>Предупреждаем о сроках и изменениях заранее</p>
+          </div>
+          <div class="benefit-card fade-in">
+            <svg class="benefit-icon" viewBox="0 0 44 44"><rect x="8" y="8" width="28" height="28" rx="6" stroke="currentColor" fill="none"/><path d="M24 16l-6 6h4l-4 6" stroke="currentColor"/></svg>
+            <h3>Современные технологии</h3>
+            <p>Облачная 1С, ЭДО, личный кабинет</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- БЛОК 6: ДЛЯ КОГО -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title fade-in">Работаем с бизнесом на всех этапах</h2>
+        <div class="segments-grid">
+          <div class="segment-card fade-in">
+            <svg class="segment-icon" viewBox="0 0 48 48"><circle cx="24" cy="24" r="18" stroke="currentColor" fill="none"/><path d="M24 14v10l6 6" stroke="currentColor"/></svg>
+            <h4>Стартапы</h4>
+            <p>Поможем выбрать систему налогообложения, зарегистрируем бизнес</p>
+          </div>
+          <div class="segment-card fade-in">
+            <svg class="segment-icon" viewBox="0 0 48 48"><rect x="12" y="8" width="24" height="32" rx="4" stroke="currentColor" fill="none"/><path d="M20 20h8M20 28h8" stroke="currentColor"/></svg>
+            <h4>ИП и микробизнес</h4>
+            <p>Ведём бухгалтерию удалённо. Экономите на штатном бухгалтере</p>
+          </div>
+          <div class="segment-card fade-in">
+            <svg class="segment-icon" viewBox="0 0 48 48"><path d="M16 16h16v16H16z" stroke="currentColor" fill="none"/><path d="M24 24v8M20 28h8" stroke="currentColor"/></svg>
+            <h4>Малый бизнес (5–50 сотрудников)</h4>
+            <p>Полное сопровождение: бухгалтерия, кадры, налоги</p>
+          </div>
+          <div class="segment-card fade-in">
+            <svg class="segment-icon" viewBox="0 0 48 48"><circle cx="16" cy="16" r="6" stroke="currentColor" fill="none"/><circle cx="32" cy="32" r="6" stroke="currentColor" fill="none"/><path d="M20 20l8 8" stroke="currentColor"/></svg>
+            <h4>Компании с ВЭД</h4>
+            <p>Валютный контроль, экспорт-импорт, таможенные документы</p>
+          </div>
+        </div>
+            </div>
+    </section>
+
+    <!-- БЛОК 7: КЕЙСЫ - Embla Carousel -->
+    <section class="section" style="background: var(--bg-light);" id="cases">
+      <div class="container">
+        <h2 class="section-title fade-in">Кейсы и результаты</h2>
+        <div class="embla fade-in">
+          <div class="embla__viewport" id="embla-viewport">
+            <div class="embla__container">
+              <div class="embla__slide">
+                <div class="case-card">
+                  <h3>IT-компания (ООО на УСН)</h3>
+                  <p>Задача: Снизить налоговую нагрузку</p>
+                  <div class="result">Экономия 480 000 ₽ в год</div>
+                  <a href="keisy.html">Читать кейс →</a>
+                </div>
+              </div>
+              <div class="embla__slide">
+                <div class="case-card">
+                  <h3>Торговая компания (ООО на ОСНО)</h3>
+                  <p>Задача: Восстановить учёт за 2 года</p>
+                  <div class="result">Избежали штрафов на 350 000 ₽</div>
+                  <a href="keisy.html">Читать кейс →</a>
+                </div>
+              </div>
+              <div class="embla__slide">
+                <div class="case-card">
+                  <h3>ИП (сфера услуг)</h3>
+                  <p>Задача: Открыть бизнес без ошибок</p>
+                  <div class="result">Через 3 дня клиент начал работать легально</div>
+                  <a href="keisy.html">Читать кейс →</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="embla__controls">
+            <button class="embla__btn embla__btn--prev" id="embla-prev">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+            </button>
+            <div class="embla__dots" id="embla-dots"></div>
+            <button class="embla__btn embla__btn--next" id="embla-next">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- БЛОК 8: ФИНАЛЬНЫЙ CTA -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-block fade-in">
+          <h2>Готовы навести порядок в бухгалтерии?</h2>
+          <p>Получите бесплатную консультацию и экспресс-аудит текущего учёта. Выявим риски, покажем точки оптимизации</p>
+          <div class="cta-contacts" style="margin-top: 30px;">
+            <p style="font-size: 1.1rem; margin-bottom: 12px;">Позвоните или напишите нам:</p>
+            <a href="tel:+74951234567" class="btn btn-primary" style="display: inline-block; margin-bottom: 10px;">+7 (495) 123-45-67</a>
+            <br>
+            <a href="mailto:info@partnery.ru" class="btn btn-secondary" style="display: inline-block;">info@partnery.ru</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ПОДВАЛ -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h4>Партнеры</h4>
+            <p style="font-size: 0.9rem;">Комплексное бухгалтерское и юридическое сопровождение МСБ</p>
+            <div class="footer-social" style="margin-top: 16px; display: flex; gap: 12px;">
+              <a href="https://t.me/partnery" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+              </a>
+              <a href="https://vk.com/partnery" target="_blank" rel="noopener noreferrer" aria-label="VK">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M15.684 0H8.316C2.879 0 0 2.879 0 8.316v7.368C0 21.121 2.879 24 8.316 24h7.368C21.121 24 24 21.121 24 15.684V8.316C24 2.879 21.121 0 15.684 0zm3.265 16.58h-1.227c-.828 0-.996-.746-2.443-2.193-1.232-1.16-1.75-1.3-2.019-1.3-.41 0-.525.164-.525.656v1.718c0 .465-.164.738-1.407.738-2.072 0-4.363-1.247-5.96-3.574-2.32-3.308-2.951-5.769-2.951-6.275 0-.287.164-.533.574-.533h1.227c.41 0 .574.164.738.574.82 2.357 2.116 4.481 2.664 4.481.205 0 .287-.082.287-.533v-3.32c0-1.067-.615-1.16-.615-1.54 0-.287.246-.533.533-.533h3.278c.41 0 .533.246.533.533v3.075c0 .41.164.533.287.533.205 0 .369-.123.574-.328 1.026-1.14 2.034-3.117 2.034-3.117.123-.287.287-.533.738-.533h1.227c.533 0 .656.287.533.656-.205.82-2.116 3.28-2.116 3.28-.164.287-.205.41 0 .656.164.205.738.738 1.108 1.16.656.738 1.149 1.35 1.312 1.76.164.41-.082.656-.492.656z"/></svg>
+              </a>
+              <a href="https://dzen.ru/partnery" target="_blank" rel="noopener noreferrer" aria-label="Dzen">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M4 2h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 2v16h16V4H4zm8 2c3.3 0 6 2.7 6 6s-2.7 6-6 6-6-2.7-6-6 2.7-6 6-6zm0 2c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Услуги</h4>
+            <ul>
+              <li><a href="buhgalteria.html">Бухгалтерское обслуживание</a></li>
+              <li><a href="nalogi.html">Налоговое консультирование</a></li>
+              <li><a href="urisprudenciya.html">Юридическое сопровождение</a></li>
+              <li><a href="uslugi.html">Все услуги</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Компания</h4>
+            <ul>
+              <li><a href="o-kompanii.html">О нас</a></li>
+              <li><a href="keisy.html">Кейсы</a></li>
+              <li><a href="blog.html">Блог</a></li>
+              <li><a href="tarify.html">Тарифы</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Контакты</h4>
+            <ul>
+              <li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+              <li><a href="mailto:info@partnery.ru">info@partnery.ru</a></li>
+              <li>г. Москва, ул. Тверская, д. 12</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 Партнеры. Все права защищены.</span>
+          <div>
+            <a href="privacy-policy.html">Политика конфиденциальности</a> |
+            <a href="privacy-policy.html#personal-data">Политика обработки ПД</a> |
+            <a href="cookies-policy.html">Политика cookies</a> |
+            <a href="privacy-policy.html#requisites">Реквизиты</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  <!-- МОДАЛЬНЫЕ ОКНА (удалены) -->
+
+    <script src="https://unpkg.com/embla-carousel@8.5.1/embla-carousel.umd.js"></script>
+  <script src="script.js?v=4"></script>
+</body>
+</html>

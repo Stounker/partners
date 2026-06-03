@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Услуги | Партнеры</title>
+  <meta name="description" content="Полный перечень бухгалтерских и юридических услуг для малого и среднего бизнеса.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+      <header class="header">
+    <div class="container">
+      <a href="/" class="logo">Партнёры</a>
+      <nav class="nav">
+        <a href="index.html">Главная</a>
+        <a href="uslugi.html">Услуги</a>
+        <a href="tarify.html">Тарифы</a>
+        <a href="keisy.html">Кейсы</a>
+        <a href="blog.html">Блог</a>
+        <a href="o-kompanii.html">О компании</a>
+        <a href="kontakty.html">Контакты</a>
+      </nav>
+      <div class="header-actions">
+        <a href="tel:+74951234567" class="btn-call">+7 (495) 123-45-67</a>
+        <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumbs"><a href="index.html">Главная</a> / <span>Услуги</span></div>
+        <h1>Наши услуги</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="services-grid">
+          <div class="service-card fade-in video-card">
+            <video class="card-video" src="video/fon_kompleks/buh_obsl.mp4" muted loop playsinline autoplay></video>
+            <div class="card-overlay"></div>
+            <a href="buhgalteria.html" class="card-content">
+              <h3>Бухгалтерское обслуживание</h3>
+              <p>Ведём учёт от первички до отчётности. Никаких штрафов и просрочек</p>
+            </a>
+          </div>
+          <div class="service-card fade-in video-card">
+            <video class="card-video" src="video/fon_kompleks/buh_konsul.mp4" muted loop playsinline autoplay></video>
+            <div class="card-overlay"></div>
+            <a href="nalogi.html" class="card-content">
+              <h3>Налоговое консультирование</h3>
+              <p>Подберём оптимальную систему налогообложения. Легально снизим нагрузку</p>
+            </a>
+          </div>
+          <div class="service-card fade-in video-card">
+            <video class="card-video" src="video/fon_kompleks/buh_yursopr.mp4" muted loop playsinline autoplay></video>
+            <div class="card-overlay"></div>
+            <a href="urisprudenciya.html" class="card-content">
+              <h3>Юридическое сопровождение</h3>
+              <p>Защитим интересы в договорах, судах, спорах с контрагентами</p>
+            </a>
+          </div>
+          <div class="service-card fade-in video-card">
+            <video class="card-video" src="video/fon_kompleks/buh_reg.mp4" muted loop playsinline autoplay></video>
+            <div class="card-overlay"></div>
+            <div class="card-content">
+              <h3>Регистрация и ликвидация</h3>
+              <p>Откроем ИП или ООО «под ключ» за 3 дня</p>
+            </div>
+          </div>
+          <div class="service-card fade-in video-card">
+            <video class="card-video" src="video/fon_kompleks/buh_raschet.mp4" muted loop playsinline autoplay></video>
+            <div class="card-overlay"></div>
+            <div class="card-content">
+              <h3>Кадровый учёт</h3>
+              <p>Оформим приём, перевод, увольнение. Рассчитаем зарплату</p>
+            </div>
+          </div>
+          <div class="service-card fade-in video-card">
+            <video class="card-video" src="video/fon_kompleks/buh_vostanov.mp4" muted loop playsinline autoplay></video>
+            <div class="card-overlay"></div>
+            <div class="card-content">
+              <h3>Восстановление учёта</h3>
+              <p>Исправим ошибки, накопившиеся за годы</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background: var(--bg-light);">
+      <div class="container" style="text-align: center;">
+        <h2 class="section-title fade-in">Не нашли нужную услугу?</h2>
+        <p style="max-width: 500px; margin: 0 auto 30px;">Опишите вашу задачу — мы подберём индивидуальное решение</p>
+        <a href="tel:+74951234567" class="btn btn-primary">Позвонить нам</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Партнеры</h4>
+          <p style="font-size: 0.9rem;">Комплексное бухгалтерское и юридическое сопровождение МСБ</p>
+        </div>
+        <div class="footer-col">
+          <h4>Услуги</h4>
+          <ul>
+            <li><a href="buhgalteria.html">Бухгалтерское обслуживание</a></li>
+            <li><a href="nalogi.html">Налоговое консультирование</a></li>
+            <li><a href="urisprudenciya.html">Юридическое сопровождение</a></li>
+            <li><a href="uslugi.html">Все услуги</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Компания</h4>
+          <ul>
+            <li><a href="o-kompanii.html">О нас</a></li>
+            <li><a href="o-kompanii.html">Команда</a></li>
+            <li><a href="keisy.html">Кейсы</a></li>
+            <li><a href="blog.html">Блог</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Контакты</h4>
+          <ul>
+            <li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+            <li><a href="mailto:info@partnery.ru">info@partnery.ru</a></li>
+            <li>г. Москва, ул. Тверская, д. 12</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Партнеры. Все права защищены.</span>
+        <div><a href="#">Политика конфиденциальности</a> | <a href="#">Реквизиты</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- МОДАЛЬНЫЕ ОКНА (удалены) -->
+
+  <script src="script.js?v=2"></script>
+</body>
+</html>

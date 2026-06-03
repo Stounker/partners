@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тарифы | Партнеры</title>
+  <meta name="description" content="Тарифы на бухгалтерское и юридическое сопровождение. Старт, Бизнес, Премиум. Прозрачные цены без скрытых платежей.">
+  <link href="style.css?v=2" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+      <header class="header">
+    <div class="container">
+      <a href="/" class="logo">Партнёры</a>
+      <nav class="nav">
+        <a href="index.html">Главная</a>
+        <a href="uslugi.html">Услуги</a>
+        <a href="tarify.html">Тарифы</a>
+        <a href="keisy.html">Кейсы</a>
+        <a href="blog.html">Блог</a>
+        <a href="o-kompanii.html">О компании</a>
+        <a href="kontakty.html">Контакты</a>
+      </nav>
+      <div class="header-actions">
+        <a href="tel:+74951234567" class="btn-call">+7 (495) 123-45-67</a>
+        <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumbs"><a href="index.html">Главная</a> / <span>Тарифы</span></div>
+        <h1>Наши тарифы</h1>
+        <p>Выберите пакет, который подходит вашему бизнесу. Никаких скрытых платежей</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+          <!-- Тариф Старт -->
+          <div class="benefit-card" style="text-align: center;">
+            <h2 style="margin-bottom: 8px;">Старт</h2>
+            <p style="font-size: 2rem; font-weight: 700; color: var(--accent-green);">от 2 500 ₽/мес</p>
+            <ul style="list-style: none; margin: 20px 0; text-align: left;">
+              <li style="margin-bottom: 8px;">✅ Ведение учёта до 20 операций</li>
+              <li style="margin-bottom: 8px;">✅ Расчёт УСН/патента</li>
+              <li style="margin-bottom: 8px;">✅ Отчётность в ФНС</li>
+              <li style="margin-bottom: 8px;">✅ Консультации по email</li>
+            </ul>
+            <a href="tel:+74951234567" class="btn btn-primary">Позвонить</a>
+          </div>
+          <!-- Тариф Бизнес (выделенный) -->
+          <div class="benefit-card" style="text-align: center; box-shadow: 0 8px 30px rgba(135,168,120,0.3); border: 2px solid var(--accent-green); position: relative;">
+            <span style="position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: var(--accent-terra); color: #fff; padding: 4px 16px; border-radius: 20px; font-size: 0.8rem;">Хит продаж</span>
+            <h2 style="margin-bottom: 8px;">Бизнес</h2>
+            <p style="font-size: 2rem; font-weight: 700; color: var(--accent-green);">от 6 000 ₽/мес</p>
+            <ul style="list-style: none; margin: 20px 0; text-align: left;">
+              <li style="margin-bottom: 8px;">✅ До 100 операций</li>
+              <li style="margin-bottom: 8px;">✅ Расчёт зарплаты (до 5 чел)</li>
+              <li style="margin-bottom: 8px;">✅ Кадровый учёт</li>
+              <li style="margin-bottom: 8px;">✅ Участие в налоговых проверках</li>
+            </ul>
+            <a href="tel:+74951234567" class="btn btn-primary">Позвонить</a>
+          </div>
+          <!-- Тариф Премиум -->
+          <div class="benefit-card" style="text-align: center;">
+            <h2 style="margin-bottom: 8px;">Премиум</h2>
+            <p style="font-size: 2rem; font-weight: 700; color: var(--accent-green);">от 15 000 ₽/мес</p>
+            <ul style="list-style: none; margin: 20px 0; text-align: left;">
+              <li style="margin-bottom: 8px;">✅ Безлимит операций</li>
+              <li style="margin-bottom: 8px;">✅ Полный кадровый учёт</li>
+              <li style="margin-bottom: 8px;">✅ Юридическое сопровождение</li>
+              <li style="margin-bottom: 8px;">✅ ВЭД, валютный контроль</li>
+            </ul>
+            <a href="tel:+74951234567" class="btn btn-primary">Позвонить</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background: var(--bg-light);">
+      <div class="container">
+        <h2 class="section-title">Калькулятор стоимости</h2>
+        <div style="max-width: 600px; margin: 0 auto;">
+          <div class="form-group">
+            <label>Система налогообложения</label>
+            <select id="calc-tax">
+              <option value="usn">УСН</option>
+              <option value="osno">ОСНО</option>
+              <option value="patent">Патент</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Количество сотрудников</label>
+            <input type="number" id="calc-employees" value="1" min="0" max="100">
+          </div>
+          <div class="form-group">
+            <label>Количество операций в месяц</label>
+            <input type="number" id="calc-ops" value="10" min="0" max="500">
+          </div>
+          <div style="margin: 16px 0;">
+            <label><input type="checkbox" id="calc-cadr"> Кадровый учёт</label><br>
+            <label><input type="checkbox" id="calc-ved"> ВЭД</label><br>
+            <label><input type="checkbox" id="calc-vosst"> Восстановление учёта</label>
+          </div>
+          <div style="font-size: 1.5rem; font-weight: 600; margin: 20px 0; color: var(--accent-green);" id="calc-result">Примерная стоимость: от 6 000 ₽/мес</div>
+          <a href="tel:+74951234567" class="btn btn-primary">Позвонить для расчёта</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">...</footer>
+  <!-- МОДАЛЬНЫЕ ОКНА (удалены) -->
+  <script src="script.js?v=2"></script>
+</body>
+</html>
+

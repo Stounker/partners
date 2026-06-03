@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Блог | Партнеры</title>
+  <meta name="description" content="Полезные статьи о бухгалтерии, налогах и юриспруденции для МСБ.">
+  <link href="style.css?v=2" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+      <header class="header">
+    <div class="container">
+      <a href="/" class="logo">Партнёры</a>
+      <nav class="nav">
+        <a href="index.html">Главная</a>
+        <a href="uslugi.html">Услуги</a>
+        <a href="tarify.html">Тарифы</a>
+        <a href="keisy.html">Кейсы</a>
+        <a href="blog.html">Блог</a>
+        <a href="o-kompanii.html">О компании</a>
+        <a href="kontakty.html">Контакты</a>
+      </nav>
+      <div class="header-actions">
+        <a href="tel:+74951234567" class="btn-call">+7 (495) 123-45-67</a>
+        <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumbs"><a href="index.html">Главная</a> / <span>Блог</span></div>
+        <h1>Блог</h1>
+        <p>Полезные материалы о бухгалтерии, налогах и юриспруденции</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 30px;" id="blog-filters">
+          <span class="btn btn-secondary blog-filter" data-category="all" style="padding: 6px 16px; font-size: 0.85rem;">Все</span>
+          <span class="btn btn-secondary blog-filter" data-category="taxes" style="padding: 6px 16px; font-size: 0.85rem;">Налоги</span>
+          <span class="btn btn-secondary blog-filter" data-category="accounting" style="padding: 6px 16px; font-size: 0.85rem;">Бухгалтерия</span>
+          <span class="btn btn-secondary blog-filter" data-category="law" style="padding: 6px 16px; font-size: 0.85rem;">Юриспруденция</span>
+          <span class="btn btn-secondary blog-filter" data-category="hr" style="padding: 6px 16px; font-size: 0.85rem;">Кадры</span>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px;" id="blog-articles">
+          <div class="benefit-card blog-article" data-category="accounting">
+            <div style="width: 100%; height: 160px; background: var(--bg-card); border-radius: var(--radius-sm); margin-bottom: 12px;"></div>
+            <span style="font-size: 0.8rem; color: var(--accent-green);">Бухгалтерия</span>
+            <h3>Как выбрать систему налогообложения в 2026 году</h3>
+            <p style="font-size: 0.9rem;">Разбираем плюсы и минусы УСН, ОСНО и патента</p>
+            <a href="#">Читать →</a>
+          </div>
+          <div class="benefit-card blog-article" data-category="taxes">
+            <div style="width: 100%; height: 160px; background: var(--bg-card); border-radius: var(--radius-sm); margin-bottom: 12px;"></div>
+            <span style="font-size: 0.8rem; color: var(--accent-terra);">Налоги</span>
+            <h3>Новые штрафы за несдачу отчётности</h3>
+            <p>Что изменилось и как избежать наказаний</p>
+            <a href="#">Читать →</a>
+          </div>
+          <div class="benefit-card blog-article" data-category="law">
+            <div style="width: 100%; height: 160px; background: var(--bg-card); border-radius: var(--radius-sm); margin-bottom: 12px;"></div>
+            <span style="font-size: 0.8rem; color: var(--accent-green);">Юриспруденция</span>
+            <h3>Типичные ошибки в договорах</h3>
+            <p>Как защитить бизнес от недобросовестных контрагентов</p>
+            <a href="#">Читать →</a>
+          </div>
+          <div class="benefit-card blog-article" data-category="hr">
+            <div style="width: 100%; height: 160px; background: var(--bg-card); border-radius: var(--radius-sm); margin-bottom: 12px;"></div>
+            <span style="font-size: 0.8rem; color: var(--accent-terra);">Кадры</span>
+            <h3>Изменения в трудовом кодексе: что нужно знать работодателю</h3>
+            <p>Новые правила приёма, увольнения и ведения кадрового учёта</p>
+            <a href="#">Читать →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Партнеры</h4>
+          <p style="font-size: 0.9rem;">Комплексное бухгалтерское и юридическое сопровождение МСБ</p>
+        </div>
+        <div class="footer-col">
+          <h4>Услуги</h4>
+          <ul>
+            <li><a href="buhgalteria.html">Бухгалтерское обслуживание</a></li>
+            <li><a href="nalogi.html">Налоговое консультирование</a></li>
+            <li><a href="urisprudenciya.html">Юридическое сопровождение</a></li>
+            <li><a href="uslugi.html">Все услуги</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Компания</h4>
+          <ul>
+            <li><a href="o-kompanii.html">О нас</a></li>
+            <li><a href="keisy.html">Кейсы</a></li>
+            <li><a href="blog.html">Блог</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Контакты</h4>
+          <ul>
+            <li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+            <li><a href="mailto:info@partnery.ru">info@partnery.ru</a></li>
+            <li>г. Москва, ул. Тверская, д. 12</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Партнеры. Все права защищены.</span>
+        <div>
+          <a href="#">Политика конфиденциальности</a> | <a href="#">Реквизиты</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- МОДАЛЬНЫЕ ОКНА (удалены) -->
+  <script src="script.js?v=2"></script>
+</body>
+</html>

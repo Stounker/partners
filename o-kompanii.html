@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О компании | Партнеры</title>
+  <meta name="description" content="О компании Партнеры: миссия, ценности, команда, история в цифрах.">
+  <link href="style.css?v=2" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+      <header class="header">
+    <div class="container">
+      <a href="/" class="logo">Партнёры</a>
+      <nav class="nav">
+        <a href="index.html">Главная</a>
+        <a href="uslugi.html">Услуги</a>
+        <a href="tarify.html">Тарифы</a>
+        <a href="keisy.html">Кейсы</a>
+        <a href="blog.html">Блог</a>
+        <a href="o-kompanii.html">О компании</a>
+        <a href="kontakty.html">Контакты</a>
+      </nav>
+      <div class="header-actions">
+        <a href="tel:+74951234567" class="btn-call">+7 (495) 123-45-67</a>
+        <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumbs"><a href="index.html">Главная</a> / <span>О компании</span></div>
+        <h1>О компании</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Наша миссия</h2>
+        <p>Дать предпринимателям спокойствие и уверенность в завтрашнем дне, взяв на себя всю рутину по бухгалтерии, налогам и юридическим вопросам.</p>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 24px; margin-top: 40px;">
+          <div class="benefit-card"><h3>Надёжность</h3><p>Работаем строго в рамках закона</p></div>
+          <div class="benefit-card"><h3>Проактивность</h3><p>Предупреждаем риски заранее</p></div>
+          <div class="benefit-card"><h3>Прозрачность</h3><p>Понятные отчёты и цены</p></div>
+          <div class="benefit-card"><h3>Партнёрство</h3><p>Работаем на ваш результат</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background: var(--bg-light);">
+      <div class="container">
+        <h2>История в цифрах</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 24px;">
+          <div class="problem-card"><div style="font-size: 2rem; font-weight: 700; color: var(--accent-green);">2020</div><p>Основание компании</p></div>
+          <div class="problem-card"><div style="font-size: 2rem; font-weight: 700; color: var(--accent-green);">100+</div><p>Довольных клиентов</p></div>
+          <div class="problem-card"><div style="font-size: 2rem; font-weight: 700; color: var(--accent-green);">50 млн ₽</div><p>Сэкономлено клиентам</p></div>
+          <div class="problem-card"><div style="font-size: 2rem; font-weight: 700; color: var(--accent-green);">15</div><p>Экспертов в команде</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Команда</h2>
+        <div style="display: flex; gap: 24px; flex-wrap: wrap;">
+          <div style="flex:1; min-width: 200px; text-align: center;">
+            <div style="width: 100px; height: 100px; border-radius: 50%; background: var(--accent-green); margin: 0 auto 12px;"></div>
+            <h3>Мария Иванова</h3>
+            <p>Главный бухгалтер</p>
+          </div>
+          <div style="flex:1; min-width: 200px; text-align: center;">
+            <div style="width: 100px; height: 100px; border-radius: 50%; background: var(--accent-terra); margin: 0 auto 12px;"></div>
+            <h3>Алексей Петров</h3>
+            <p>Руководитель юротдела</p>
+          </div>
+          <div style="flex:1; min-width: 200px; text-align: center;">
+            <div style="width: 100px; height: 100px; border-radius: 50%; background: #87A878; margin: 0 auto 12px;"></div>
+            <h3>Елена Соколова</h3>
+            <p>Налоговый консультант</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">...</footer>
+  <div class="modal-overlay" id="modal-overlay">...</div>
+  <script src="script.js?v=2"></script>
+</body>
+</html>
+
